@@ -201,7 +201,7 @@ def main():
     splitter_type = "RecursiveCharacterTextSplitter"
 
     if 'openai_api_key' not in st.session_state:
-        openai_api_key = "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"
+        openai_api_key = ""
         if openai_api_key:
             st.session_state.openai_api_key = openai_api_key
             os.environ["OPENAI_API_KEY"] = openai_api_key
